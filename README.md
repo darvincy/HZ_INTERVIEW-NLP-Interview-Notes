@@ -7,6 +7,361 @@
 
 <img src="img/微信截图_20210301212242.png" width="50%" >
 
+## 一、基础算法 常见面试篇
+
+- [过拟合和欠拟合 常见面试篇](https://articles.zsxq.com/id_0xjh0m6e44br.html)
+  - 一、过拟合和欠拟合 是什么？
+  - 二、过拟合/高方差（overfiting / high variance）篇
+    - 2.1 过拟合是什么及检验方法？
+    - 2.2 导致过拟合的原因是什么？
+    - 2.3 过拟合的解决方法是什么？
+  - 三、欠拟合/高偏差（underfiting / high bias）篇
+    - 3.1 欠拟合是什么及检验方法？
+    - 3.2 导致欠拟合的原因是什么？
+    - 3.3 过拟合的解决方法是什么？
+
+> [点击查看答案](https://articles.zsxq.com/id_0xjh0m6e44br.html)
+
+- [BatchNorm vs LayerNorm 常见面试篇](https://articles.zsxq.com/id_wbep87ht600b.html)
+  - 一、动机篇
+    - 1.1 独立同分布（independent and identically distributed）与白化
+    - 1.2 （ Internal Covariate Shift，ICS）
+    - 1.3 ICS问题带来的后果是什么？
+  - 二、Normalization 篇
+    - 2.1 Normalization 的通用框架与基本思想
+  - 三、Batch Normalization 篇
+    - 3.1 Batch Normalization（纵向规范化）是什么？
+    - 3.2 Batch Normalization（纵向规范化）存在什么问题？
+    - 3.3 Batch Normalization（纵向规范化）适用的场景是什么？
+    - 3.4 BatchNorm 存在什么问题？
+  - 四、Layer Normalization（横向规范化） 篇
+    - 4.1 Layer Normalization（横向规范化）是什么？
+    - 4.2 Layer Normalization（横向规范化）有什么用？
+  - 五、BN vs LN 篇
+  - 六、主流 Normalization 方法为什么有效？
+
+> [点击查看答案](https://articles.zsxq.com/id_wbep87ht600b.html)
+
+- [激活函数 常见面试篇](BasicAlgorithm/激活函数.md)
+  - 一、动机篇
+    - 1.1 为什么要有激活函数？
+  - 二、激活函数介绍篇
+    - 2.1 sigmoid 函数篇
+      - 2.1.1 什么是 sigmoid 函数？
+      - 2.1.2 为什么选 sigmoid 函数 作为激活函数？
+      - 2.1.3 sigmoid 函数 有什么缺点？
+    - 2.2 tanh 函数篇
+      - 2.2.1 什么是 tanh 函数？
+      - 2.2.2 为什么选 tanh 函数 作为激活函数？
+      - 2.2.3 tanh 函数 有什么缺点？
+    - 2.3 relu 函数篇
+      - 2.3.1 什么是 relu 函数？
+      - 2.3.2 为什么选 relu 函数 作为激活函数？
+      - 2.3.3 relu 函数 有什么缺点？
+  - 三、激活函数选择篇
+
+
+- [正则化常见面试篇](https://articles.zsxq.com/id_g6mir08c0s8d.html)
+  - 一、L0，L1，L2正则化 篇
+    - 1.1 正则化 是什么？
+    - 1.2 什么是 L0 正则化 ？
+    - 1.3 什么是 L1 （稀疏规则算子 Lasso regularization）正则化 ？
+    - 1.4 什么是 L2 正则化（岭回归 Ridge Regression 或者 权重衰减 Weight Decay）正则化 ？
+  - 二、对比篇
+    - 2.1 什么是结构风险最小化？
+    - 2.2 从结构风险最小化的角度理解L1和L2正则化
+    - 2.3 L1 vs L2
+  - 三、dropout 篇
+    - 3.1 什么是 dropout？
+    - 3.2 dropout 在训练和测试过程中如何操作？
+    - 3.3 dropout 如何防止过拟合?
+
+> [点击查看答案](https://articles.zsxq.com/id_g6mir08c0s8d.html)
+
+- [优化算法及函数 常见面试篇](https://articles.zsxq.com/id_hqd9p17b6afk.html)
+  - 一、动机篇
+    - 1.1 为什么需要 优化函数？
+    - 1.2 优化函数的基本框架是什么?
+  - 二、优化函数介绍篇
+    - 2.1 梯度下降法是什么?
+    - 2.2 随机梯度下降法是什么?
+    - 2.3 Momentum 是什么?
+    - 2.4 SGD with Nesterov Acceleration 是什么?
+    - 2.5 Adagrad 是什么?
+    - 2.6 RMSProp/AdaDelta 是什么？
+    - 2.7 Adam 是什么?
+    - 2.8 Nadam 是什么?
+  - 三、优化函数学霸笔记篇
+
+> [点击查看答案](https://articles.zsxq.com/id_hqd9p17b6afk.html)
+
+- [归一化 常见面试篇](https://articles.zsxq.com/id_8iemf392t53n.html)
+  - 一、动机篇
+    - 1.1 为什么要归一化？
+  - 二、介绍篇
+    - 2.1  归一化 有 哪些方法？
+    - 2.2  归一化 各方法 特点？
+    - 2.3  归一化 的 意义？
+  - 三、应用篇
+    - 3.1 哪些机器学习算法 需要做 归一化？
+    - 3.2 哪些机器学习算法 不需要做 归一化？
+
+> [点击查看答案](https://articles.zsxq.com/id_8iemf392t53n.html)
+
+- [判别式（discriminative）模型 vs. 生成式(generative)模型 常见面试篇](https://articles.zsxq.com/id_siv7mtg3573r.html)
+  - 一、判别式模型篇
+    - 1.1 什么是判别式模型？
+    - 1.2 判别式模型是思路是什么？
+    - 1.3 判别式模型的优点是什么？
+  - 二、生成式模型篇
+    - 2.1 什么是生成式模型？
+    - 2.2 生成式模型是思路是什么？
+    - 2.3 生成式模型的优点是什么？
+    - 2.4 生成式模型的缺点是什么？
+
+> [点击查看答案](https://articles.zsxq.com/id_siv7mtg3573r.html)
+
+## 二、机器学习算法篇 常见面试篇
+
+- [逻辑回归 常见面试篇](https://articles.zsxq.com/id_98g8ef7zir1q.html)
+  - 一、介绍篇
+    - 1.1什么是逻辑回归
+    - 1.2逻辑回归的优势
+  - 二、推导篇
+    - 2.1逻辑回归推导
+    - 2.2求解优化
+
+> [点击查看答案](https://articles.zsxq.com/id_98g8ef7zir1q.html)
+
+- [支持向量机 常见面试篇](https://articles.zsxq.com/id_nqeiewjxovjq.html)
+  - 一、原理篇
+    - 1.1 什么是SVM？
+      - Q.A
+    - 1.2 SVM怎么发展的？
+    - 1.3 SVM存在什么问题？
+      - Q.A
+  - 二、算法篇
+    - 2.1 什么是块算法？
+    - 2.2 什么是分解算法？
+    - 2.3 什么是序列最小优化算法？
+    - 2.4 什么是增量算法？
+      - Q.A
+  - 三、其他SVM篇
+    - 3.1 什么是最小二次支持向量机？
+    - 3.2 什么是模糊支持向量机？
+    - 3.3 什么是粒度支持向量机？
+    - 3.4 什么是多类训练算法？
+    - 3.5 什么是孪生支持向量机？
+    - 3.6 什么是排序支持向量机？
+      - Q.A
+  - 四、应用篇
+    - 4.1 模式识别
+    - 4.2 网页分类
+    - 4.3 系统建模与系统辨识
+    - 4.4 其他
+  - 五、对比篇
+  - 六、拓展篇
+
+> [点击查看答案](https://articles.zsxq.com/id_nqeiewjxovjq.html)
+
+- [集成学习 常见面试篇](https://articles.zsxq.com/id_iqq9rzq9ctcd.html)
+  - 一、动机
+  - 二、集成学习介绍篇
+    - 2.1 介绍篇
+      - 2.1.1 集成学习的基本思想是什么？
+      - 2.1.2 集成学习为什么有效？
+  - 三、 Boosting 篇
+    - 3.1 用一句话概括 Boosting？
+    - 3.2 Boosting 的特点是什么？
+    - 3.3 Boosting 的基本思想是什么？
+    - 3.4 Boosting 的特点是什么？
+    - 3.5 GBDT 是什么？
+    - 3.6 Xgboost 是什么？
+  - 四、Bagging 篇
+    - 4.1 用一句话概括 Bagging？
+    - 4.2 Bagging 的特点是什么？
+    - 4.3 Bagging 的基本思想是什么？
+    - 4.4 Bagging 的基分类器如何选择？
+    - 4.5 Bagging 的优点 是什么？
+    - 4.6 Bagging 的特点是什么？
+    - 4.7 随机森林 是什么？
+  - 五、 Stacking 篇
+    - 5.1 用一句话概括 Stacking ？
+    - 5.2 Stacking 的特点是什么？
+    - 5.3 Stacking 的基本思路是什么？
+  - 六、常见问题篇
+    - 6.1 为什么使用决策树作为基学习器？
+    - 6.2 为什么不稳定的学习器更适合作为基学习器？
+    - 6.3 哪些模型适合作为基学习器？
+    - 6.4 Bagging 方法中能使用线性分类器作为基学习器吗？ Boosting 呢？
+    - 6.5 Boosting/Bagging 与 偏差/方差 的关系？
+  - 七、对比篇
+    - 7.1 LR vs GBDT?
+
+> [点击查看答案](https://articles.zsxq.com/id_iqq9rzq9ctcd.html)
+
+## 三、深度学习算法篇 常见面试篇
+  
+- [CNN 常见面试篇](https://articles.zsxq.com/id_b3xp06wevahd.html)
+  - 一、动机篇
+  - 二、CNN 卷积层篇
+    - 2.1 卷积层的本质是什么？
+    - 2.2 CNN 卷积层与全连接层的联系？
+    - 2.3 channel的含义是什么？
+  - 三、CNN 池化层篇
+    - 3.1 池化层针对区域是什么？
+    - 3.2 池化层的种类有哪些？
+    - 3.3 池化层的作用是什么？
+    - 3.4 池化层 反向传播 是什么样的？
+    - 3.5 mean pooling 池化层 反向传播 是什么样的？
+    - 3.6 max pooling 池化层 反向传播 是什么样的？
+  - 四、CNN 整体篇
+    - 4.1 CNN 的流程是什么？
+    - 4.2 CNN 的特点是什么？
+    - 4.3 卷积神经网络为什么会具有平移不变性？
+    - 4.4 卷积神经网络中im2col是如何实现的？
+    - 4.5 CNN 的局限性是什么？
+  - 五、Iterated Dilated CNN 篇
+    - 5.1 什么是 Dilated CNN 空洞卷积？
+    - 5.2 什么是 Iterated Dilated CNN？
+  - 六、反卷积 篇
+    - 6.1 解释反卷积的原理和用途？
+
+> [点击查看答案](https://articles.zsxq.com/id_b3xp06wevahd.html)
+
+- [RNN 常见面试篇](https://articles.zsxq.com/id_2et1rj7sn8c4.html)
+  - 一、RNN 篇
+    - 1.2 为什么需要 RNN?
+    - 1.2 RNN 结构是怎么样的？
+    - 1.3 RNN 前向计算公式？
+    - 1.4 RNN 存在什么问题？
+  - 二、长短时记忆网络(Long Short Term Memory Network, LSTM) 篇
+    - 2.1 为什么 需要 LSTM?
+    - 2.2 LSTM 的结构是怎么样的?
+    - 2.3 LSTM 如何缓解 RNN 梯度消失和梯度爆炸问题?
+    - 2.3 LSTM 的流程是怎么样的?
+    - 2.4 LSTM 中激活函数区别?
+    - 2.5 LSTM的复杂度？
+    - 2.6 LSTM 存在什么问题？
+  - 三、GRU (Gated Recurrent Unit)
+    - 3.1 为什么 需要 GRU?
+    - 3.2 GRU 的结构是怎么样的?
+    - 3.3 GRU 的前向计算?
+    - 3.4 GRU 与其他 RNN系列模型的区别？
+  - 四、RNN系列模型篇
+    - 4.1 RNN系列模型 有什么特点？
+
+> [点击查看答案](https://articles.zsxq.com/id_2et1rj7sn8c4.html)
+
+- [Attention 常见面试篇](https://articles.zsxq.com/id_hs7zqva04b9g.html)
+  - 一、seq2seq 篇
+    - 1.1 seq2seq （Encoder-Decoder）是什么？
+    - 1.2 seq2seq 中 的 Encoder 怎么样？
+    - 1.3 seq2seq 中 的 Decoder 怎么样？
+    - 1.4 在 数学角度上 的 seq2seq ，你知道么？
+    - 1.5 seq2seq 存在 什么 问题？
+  - 二、Attention 篇
+    - 2.1 什么是 Attention?
+    - 2.2 为什么引入 Attention机制？
+    - 2.3 Attention 有什么作用？
+    - 2.4 Attention 流程是怎么样？
+      - 步骤一  执行encoder (与 seq2seq 一致)
+      - 步骤二  计算对齐系数 a
+      - 步骤三  计算上下文语义向量 C
+      - 步骤四  更新decoder状态
+      - 步骤五 计算输出预测词
+    - 2.5 Attention 的应用领域有哪些？
+  - 三、Attention 变体篇
+    - 3.1 Soft Attention 是什么？
+    - 3.2 Hard Attention 是什么？
+    - 3.3 Global Attention 是什么？
+    - 3.4 Local Attention 是什么？
+    - 3.5 self-attention 是什么？
+
+> [点击查看答案](https://articles.zsxq.com/id_hs7zqva04b9g.html)
+
+- [生成对抗网络 GAN 常见面试篇](https://articles.zsxq.com/id_s5wm5safsqse.html)
+  - 一、动机
+  - 二、介绍篇
+    - 2.1 GAN 的基本思想
+    - 2.2 GAN 基本介绍
+      - 2.2.1  GAN 的基本结构
+      - 2.2.2 GAN 的基本思想
+  - 三、训练篇
+    - 3.1 生成器介绍
+    - 3.2 判别器介绍
+    - 3.3 训练过程
+    - 3.4  训练所涉及相关理论基础
+  - 四、总结
+
+> [点击查看答案](https://articles.zsxq.com/id_s5wm5safsqse.html)
+
+### 3.1  Transformer 常见面试篇
+
+- [Transformer 常见面试篇](https://articles.zsxq.com/id_8nv1s9vsr2ow.html) 
+  - 一、动机篇
+    - 1.1 为什么要有 Transformer?
+    - 1.2 Transformer 作用是什么？
+  - 二、整体结构篇
+    - 2.1 Transformer 整体结构是怎么样？
+    - 2.2 Transformer-encoder 结构怎么样？
+    - 2.3 Transformer-decoder 结构怎么样?
+  - 三、模块篇
+    - 3.1 self-attention 模块
+      - 3.1.1 传统 attention 是什么?
+      - 3.1.2 为什么 会有self-attention?
+      - 3.1.3 self-attention 的核心思想是什么?
+      - 3.1.4 self-attention 的目的是什么?
+      - 3.1.5 self-attention 的怎么计算的?
+      - 3.1.6 self-attention 为什么Q和K使用不同的权重矩阵生成，为何不能使用同一个值进行自身的点乘？
+      - 3.1.7 为什么采用点积模型的 self-attention 而不采用加性模型？
+      - 3.1.8 Transformer 中在计算 self-attention 时为什么要除以 $\sqrt{d}$？
+      - 3.1.9 self-attention 如何解决长距离依赖问题？
+      - 3.1.10 self-attention 如何并行化？
+    - 3.2 multi-head attention 模块
+      - 3.2.1 multi-head attention 的思路是什么样?
+      - 3.2.2 multi-head attention 的步骤是什么样?
+      - 3.2.3 Transformer为何使用多头注意力机制？（为什么不使用一个头）
+      - 3.2.4 为什么在进行多头注意力的时候需要对每个head进行降维？
+      - 3.2.5 multi-head attention 代码介绍
+    - 3.3 位置编码（Position encoding）模块
+      - 3.3.1 为什么要 加入 位置编码（Position encoding） ？
+      - 3.3.2 位置编码（Position encoding）的思路是什么 ？
+      - 3.3.3 位置编码（Position encoding）的作用是什么 ？
+      - 3.3.4 位置编码（Position encoding）的步骤是什么 ？
+      - 3.3.5 Position encoding为什么选择相加而不是拼接呢？
+      - 3.3.6 Position encoding和 Position embedding的区别？
+      - 3.3.7 为何17年提出Transformer时采用的是 Position Encoder  而不是Position Embedding？而Bert却采用的是 Position Embedding ？
+      - 3.3.8 位置编码（Position encoding）的代码介绍
+    - 3.4 残差模块模块
+      - 3.4.1 为什么要 加入 残差模块？
+    - 3.5 Layer normalization 模块
+      - 3.5.1 为什么要 加入 Layer normalization 模块？
+      - 3.5.2 Layer normalization 模块的是什么？
+      - 3.5.3 Batch normalization 和 Layer normalization 的区别？
+      - 3.5.4 Transformer 中为什么要舍弃 Batch normalization 改用 Layer normalization 呢?
+      - 3.5.5  Layer normalization 模块代码介绍
+    - 3.6 Mask 模块
+      - 3.6.1 什么是 Mask？
+      - 3.6.2 Transformer 中用到 几种 Mask？
+      - 3.6.3 能不能介绍一下 Transformer 中用到几种 Mask？
+
+> [点击查看答案](https://articles.zsxq.com/id_8nv1s9vsr2ow.html)
+
+- [【关于 Transformer 问题及改进】那些你不知道的事](DeepLearningAlgorithm/transformer/transformer_error.md) 
+  - 一、Transformer 问题篇
+    - 1.1 既然 Transformer 怎么牛逼，是否还存在一些问题？
+  - 二、每个问题的解决方法是什么？
+    - 2.1 问题一：Transformer 不能很好的处理超长输入问题
+      - 2.1.1 Transformer 固定了句子长度？
+      - 2.1.2 Transformer 固定了句子长度 的目的是什么？
+      - 2.1.3 Transformer 针对该问题的处理方法？
+    - 2.2 问题二：Transformer 方向信息以及相对位置 的 缺失 问题
+    - 2.3  问题三：缺少Recurrent Inductive Bias
+    - 问题四：问题四：Transformer是非图灵完备的： 非图灵完备通俗的理解，就是无法解决所有的问题
+    - 问题五：transformer缺少conditional computation；
+    - 问题六：transformer 时间复杂度 和 空间复杂度 过大问题；
+
 ## 四、NLP 学习算法 常见面试篇
 
 #### 4.1 信息抽取 常见面试篇
@@ -686,168 +1041,6 @@
 
 > [点击查看答案](https://articles.zsxq.com/id_m3wckj5bhgu8.html)
 
-## 三、深度学习算法篇 常见面试篇
-  
-- [CNN 常见面试篇](https://articles.zsxq.com/id_b3xp06wevahd.html)
-  - 一、动机篇
-  - 二、CNN 卷积层篇
-    - 2.1 卷积层的本质是什么？
-    - 2.2 CNN 卷积层与全连接层的联系？
-    - 2.3 channel的含义是什么？
-  - 三、CNN 池化层篇
-    - 3.1 池化层针对区域是什么？
-    - 3.2 池化层的种类有哪些？
-    - 3.3 池化层的作用是什么？
-    - 3.4 池化层 反向传播 是什么样的？
-    - 3.5 mean pooling 池化层 反向传播 是什么样的？
-    - 3.6 max pooling 池化层 反向传播 是什么样的？
-  - 四、CNN 整体篇
-    - 4.1 CNN 的流程是什么？
-    - 4.2 CNN 的特点是什么？
-    - 4.3 卷积神经网络为什么会具有平移不变性？
-    - 4.4 卷积神经网络中im2col是如何实现的？
-    - 4.5 CNN 的局限性是什么？
-  - 五、Iterated Dilated CNN 篇
-    - 5.1 什么是 Dilated CNN 空洞卷积？
-    - 5.2 什么是 Iterated Dilated CNN？
-  - 六、反卷积 篇
-    - 6.1 解释反卷积的原理和用途？
-
-> [点击查看答案](https://articles.zsxq.com/id_b3xp06wevahd.html)
-
-- [RNN 常见面试篇](https://articles.zsxq.com/id_2et1rj7sn8c4.html)
-  - 一、RNN 篇
-    - 1.2 为什么需要 RNN?
-    - 1.2 RNN 结构是怎么样的？
-    - 1.3 RNN 前向计算公式？
-    - 1.4 RNN 存在什么问题？
-  - 二、长短时记忆网络(Long Short Term Memory Network, LSTM) 篇
-    - 2.1 为什么 需要 LSTM?
-    - 2.2 LSTM 的结构是怎么样的?
-    - 2.3 LSTM 如何缓解 RNN 梯度消失和梯度爆炸问题?
-    - 2.3 LSTM 的流程是怎么样的?
-    - 2.4 LSTM 中激活函数区别?
-    - 2.5 LSTM的复杂度？
-    - 2.6 LSTM 存在什么问题？
-  - 三、GRU (Gated Recurrent Unit)
-    - 3.1 为什么 需要 GRU?
-    - 3.2 GRU 的结构是怎么样的?
-    - 3.3 GRU 的前向计算?
-    - 3.4 GRU 与其他 RNN系列模型的区别？
-  - 四、RNN系列模型篇
-    - 4.1 RNN系列模型 有什么特点？
-
-> [点击查看答案](https://articles.zsxq.com/id_2et1rj7sn8c4.html)
-
-- [Attention 常见面试篇](https://articles.zsxq.com/id_hs7zqva04b9g.html)
-  - 一、seq2seq 篇
-    - 1.1 seq2seq （Encoder-Decoder）是什么？
-    - 1.2 seq2seq 中 的 Encoder 怎么样？
-    - 1.3 seq2seq 中 的 Decoder 怎么样？
-    - 1.4 在 数学角度上 的 seq2seq ，你知道么？
-    - 1.5 seq2seq 存在 什么 问题？
-  - 二、Attention 篇
-    - 2.1 什么是 Attention?
-    - 2.2 为什么引入 Attention机制？
-    - 2.3 Attention 有什么作用？
-    - 2.4 Attention 流程是怎么样？
-      - 步骤一  执行encoder (与 seq2seq 一致)
-      - 步骤二  计算对齐系数 a
-      - 步骤三  计算上下文语义向量 C
-      - 步骤四  更新decoder状态
-      - 步骤五 计算输出预测词
-    - 2.5 Attention 的应用领域有哪些？
-  - 三、Attention 变体篇
-    - 3.1 Soft Attention 是什么？
-    - 3.2 Hard Attention 是什么？
-    - 3.3 Global Attention 是什么？
-    - 3.4 Local Attention 是什么？
-    - 3.5 self-attention 是什么？
-
-> [点击查看答案](https://articles.zsxq.com/id_hs7zqva04b9g.html)
-
-- [生成对抗网络 GAN 常见面试篇](https://articles.zsxq.com/id_s5wm5safsqse.html)
-  - 一、动机
-  - 二、介绍篇
-    - 2.1 GAN 的基本思想
-    - 2.2 GAN 基本介绍
-      - 2.2.1  GAN 的基本结构
-      - 2.2.2 GAN 的基本思想
-  - 三、训练篇
-    - 3.1 生成器介绍
-    - 3.2 判别器介绍
-    - 3.3 训练过程
-    - 3.4  训练所涉及相关理论基础
-  - 四、总结
-
-> [点击查看答案](https://articles.zsxq.com/id_s5wm5safsqse.html)
-
-### 3.1  Transformer 常见面试篇
-
-- [Transformer 常见面试篇](https://articles.zsxq.com/id_8nv1s9vsr2ow.html) 
-  - 一、动机篇
-    - 1.1 为什么要有 Transformer?
-    - 1.2 Transformer 作用是什么？
-  - 二、整体结构篇
-    - 2.1 Transformer 整体结构是怎么样？
-    - 2.2 Transformer-encoder 结构怎么样？
-    - 2.3 Transformer-decoder 结构怎么样?
-  - 三、模块篇
-    - 3.1 self-attention 模块
-      - 3.1.1 传统 attention 是什么?
-      - 3.1.2 为什么 会有self-attention?
-      - 3.1.3 self-attention 的核心思想是什么?
-      - 3.1.4 self-attention 的目的是什么?
-      - 3.1.5 self-attention 的怎么计算的?
-      - 3.1.6 self-attention 为什么Q和K使用不同的权重矩阵生成，为何不能使用同一个值进行自身的点乘？
-      - 3.1.7 为什么采用点积模型的 self-attention 而不采用加性模型？
-      - 3.1.8 Transformer 中在计算 self-attention 时为什么要除以 $\sqrt{d}$？
-      - 3.1.9 self-attention 如何解决长距离依赖问题？
-      - 3.1.10 self-attention 如何并行化？
-    - 3.2 multi-head attention 模块
-      - 3.2.1 multi-head attention 的思路是什么样?
-      - 3.2.2 multi-head attention 的步骤是什么样?
-      - 3.2.3 Transformer为何使用多头注意力机制？（为什么不使用一个头）
-      - 3.2.4 为什么在进行多头注意力的时候需要对每个head进行降维？
-      - 3.2.5 multi-head attention 代码介绍
-    - 3.3 位置编码（Position encoding）模块
-      - 3.3.1 为什么要 加入 位置编码（Position encoding） ？
-      - 3.3.2 位置编码（Position encoding）的思路是什么 ？
-      - 3.3.3 位置编码（Position encoding）的作用是什么 ？
-      - 3.3.4 位置编码（Position encoding）的步骤是什么 ？
-      - 3.3.5 Position encoding为什么选择相加而不是拼接呢？
-      - 3.3.6 Position encoding和 Position embedding的区别？
-      - 3.3.7 为何17年提出Transformer时采用的是 Position Encoder  而不是Position Embedding？而Bert却采用的是 Position Embedding ？
-      - 3.3.8 位置编码（Position encoding）的代码介绍
-    - 3.4 残差模块模块
-      - 3.4.1 为什么要 加入 残差模块？
-    - 3.5 Layer normalization 模块
-      - 3.5.1 为什么要 加入 Layer normalization 模块？
-      - 3.5.2 Layer normalization 模块的是什么？
-      - 3.5.3 Batch normalization 和 Layer normalization 的区别？
-      - 3.5.4 Transformer 中为什么要舍弃 Batch normalization 改用 Layer normalization 呢?
-      - 3.5.5  Layer normalization 模块代码介绍
-    - 3.6 Mask 模块
-      - 3.6.1 什么是 Mask？
-      - 3.6.2 Transformer 中用到 几种 Mask？
-      - 3.6.3 能不能介绍一下 Transformer 中用到几种 Mask？
-
-> [点击查看答案](https://articles.zsxq.com/id_8nv1s9vsr2ow.html)
-
-- [【关于 Transformer 问题及改进】那些你不知道的事](DeepLearningAlgorithm/transformer/transformer_error.md) 
-  - 一、Transformer 问题篇
-    - 1.1 既然 Transformer 怎么牛逼，是否还存在一些问题？
-  - 二、每个问题的解决方法是什么？
-    - 2.1 问题一：Transformer 不能很好的处理超长输入问题
-      - 2.1.1 Transformer 固定了句子长度？
-      - 2.1.2 Transformer 固定了句子长度 的目的是什么？
-      - 2.1.3 Transformer 针对该问题的处理方法？
-    - 2.2 问题二：Transformer 方向信息以及相对位置 的 缺失 问题
-    - 2.3  问题三：缺少Recurrent Inductive Bias
-    - 问题四：问题四：Transformer是非图灵完备的： 非图灵完备通俗的理解，就是无法解决所有的问题
-    - 问题五：transformer缺少conditional computation；
-    - 问题六：transformer 时间复杂度 和 空间复杂度 过大问题；
-
 ## 五、NLP 技巧面
 
 ### 5.1 少样本问题面
@@ -1121,198 +1314,7 @@
 
 > [点击查看答案](https://articles.zsxq.com/id_bwx8btw6h2p1.html)
 
-## 一、基础算法 常见面试篇
 
-- [过拟合和欠拟合 常见面试篇](https://articles.zsxq.com/id_0xjh0m6e44br.html)
-  - 一、过拟合和欠拟合 是什么？
-  - 二、过拟合/高方差（overfiting / high variance）篇
-    - 2.1 过拟合是什么及检验方法？
-    - 2.2 导致过拟合的原因是什么？
-    - 2.3 过拟合的解决方法是什么？
-  - 三、欠拟合/高偏差（underfiting / high bias）篇
-    - 3.1 欠拟合是什么及检验方法？
-    - 3.2 导致欠拟合的原因是什么？
-    - 3.3 过拟合的解决方法是什么？
-
-> [点击查看答案](https://articles.zsxq.com/id_0xjh0m6e44br.html)
-
-- [BatchNorm vs LayerNorm 常见面试篇](https://articles.zsxq.com/id_wbep87ht600b.html)
-  - 一、动机篇
-    - 1.1 独立同分布（independent and identically distributed）与白化
-    - 1.2 （ Internal Covariate Shift，ICS）
-    - 1.3 ICS问题带来的后果是什么？
-  - 二、Normalization 篇
-    - 2.1 Normalization 的通用框架与基本思想
-  - 三、Batch Normalization 篇
-    - 3.1 Batch Normalization（纵向规范化）是什么？
-    - 3.2 Batch Normalization（纵向规范化）存在什么问题？
-    - 3.3 Batch Normalization（纵向规范化）适用的场景是什么？
-    - 3.4 BatchNorm 存在什么问题？
-  - 四、Layer Normalization（横向规范化） 篇
-    - 4.1 Layer Normalization（横向规范化）是什么？
-    - 4.2 Layer Normalization（横向规范化）有什么用？
-  - 五、BN vs LN 篇
-  - 六、主流 Normalization 方法为什么有效？
-
-> [点击查看答案](https://articles.zsxq.com/id_wbep87ht600b.html)
-
-- [激活函数 常见面试篇](BasicAlgorithm/激活函数.md)
-  - 一、动机篇
-    - 1.1 为什么要有激活函数？
-  - 二、激活函数介绍篇
-    - 2.1 sigmoid 函数篇
-      - 2.1.1 什么是 sigmoid 函数？
-      - 2.1.2 为什么选 sigmoid 函数 作为激活函数？
-      - 2.1.3 sigmoid 函数 有什么缺点？
-    - 2.2 tanh 函数篇
-      - 2.2.1 什么是 tanh 函数？
-      - 2.2.2 为什么选 tanh 函数 作为激活函数？
-      - 2.2.3 tanh 函数 有什么缺点？
-    - 2.3 relu 函数篇
-      - 2.3.1 什么是 relu 函数？
-      - 2.3.2 为什么选 relu 函数 作为激活函数？
-      - 2.3.3 relu 函数 有什么缺点？
-  - 三、激活函数选择篇
-
-
-- [正则化常见面试篇](https://articles.zsxq.com/id_g6mir08c0s8d.html)
-  - 一、L0，L1，L2正则化 篇
-    - 1.1 正则化 是什么？
-    - 1.2 什么是 L0 正则化 ？
-    - 1.3 什么是 L1 （稀疏规则算子 Lasso regularization）正则化 ？
-    - 1.4 什么是 L2 正则化（岭回归 Ridge Regression 或者 权重衰减 Weight Decay）正则化 ？
-  - 二、对比篇
-    - 2.1 什么是结构风险最小化？
-    - 2.2 从结构风险最小化的角度理解L1和L2正则化
-    - 2.3 L1 vs L2
-  - 三、dropout 篇
-    - 3.1 什么是 dropout？
-    - 3.2 dropout 在训练和测试过程中如何操作？
-    - 3.3 dropout 如何防止过拟合?
-
-> [点击查看答案](https://articles.zsxq.com/id_g6mir08c0s8d.html)
-
-- [优化算法及函数 常见面试篇](https://articles.zsxq.com/id_hqd9p17b6afk.html)
-  - 一、动机篇
-    - 1.1 为什么需要 优化函数？
-    - 1.2 优化函数的基本框架是什么?
-  - 二、优化函数介绍篇
-    - 2.1 梯度下降法是什么?
-    - 2.2 随机梯度下降法是什么?
-    - 2.3 Momentum 是什么?
-    - 2.4 SGD with Nesterov Acceleration 是什么?
-    - 2.5 Adagrad 是什么?
-    - 2.6 RMSProp/AdaDelta 是什么？
-    - 2.7 Adam 是什么?
-    - 2.8 Nadam 是什么?
-  - 三、优化函数学霸笔记篇
-
-> [点击查看答案](https://articles.zsxq.com/id_hqd9p17b6afk.html)
-
-- [归一化 常见面试篇](https://articles.zsxq.com/id_8iemf392t53n.html)
-  - 一、动机篇
-    - 1.1 为什么要归一化？
-  - 二、介绍篇
-    - 2.1  归一化 有 哪些方法？
-    - 2.2  归一化 各方法 特点？
-    - 2.3  归一化 的 意义？
-  - 三、应用篇
-    - 3.1 哪些机器学习算法 需要做 归一化？
-    - 3.2 哪些机器学习算法 不需要做 归一化？
-
-> [点击查看答案](https://articles.zsxq.com/id_8iemf392t53n.html)
-
-- [判别式（discriminative）模型 vs. 生成式(generative)模型 常见面试篇](https://articles.zsxq.com/id_siv7mtg3573r.html)
-  - 一、判别式模型篇
-    - 1.1 什么是判别式模型？
-    - 1.2 判别式模型是思路是什么？
-    - 1.3 判别式模型的优点是什么？
-  - 二、生成式模型篇
-    - 2.1 什么是生成式模型？
-    - 2.2 生成式模型是思路是什么？
-    - 2.3 生成式模型的优点是什么？
-    - 2.4 生成式模型的缺点是什么？
-
-> [点击查看答案](https://articles.zsxq.com/id_siv7mtg3573r.html)
-
-## 二、机器学习算法篇 常见面试篇
-
-- [逻辑回归 常见面试篇](https://articles.zsxq.com/id_98g8ef7zir1q.html)
-  - 一、介绍篇
-    - 1.1什么是逻辑回归
-    - 1.2逻辑回归的优势
-  - 二、推导篇
-    - 2.1逻辑回归推导
-    - 2.2求解优化
-
-> [点击查看答案](https://articles.zsxq.com/id_98g8ef7zir1q.html)
-
-- [支持向量机 常见面试篇](https://articles.zsxq.com/id_nqeiewjxovjq.html)
-  - 一、原理篇
-    - 1.1 什么是SVM？
-      - Q.A
-    - 1.2 SVM怎么发展的？
-    - 1.3 SVM存在什么问题？
-      - Q.A
-  - 二、算法篇
-    - 2.1 什么是块算法？
-    - 2.2 什么是分解算法？
-    - 2.3 什么是序列最小优化算法？
-    - 2.4 什么是增量算法？
-      - Q.A
-  - 三、其他SVM篇
-    - 3.1 什么是最小二次支持向量机？
-    - 3.2 什么是模糊支持向量机？
-    - 3.3 什么是粒度支持向量机？
-    - 3.4 什么是多类训练算法？
-    - 3.5 什么是孪生支持向量机？
-    - 3.6 什么是排序支持向量机？
-      - Q.A
-  - 四、应用篇
-    - 4.1 模式识别
-    - 4.2 网页分类
-    - 4.3 系统建模与系统辨识
-    - 4.4 其他
-  - 五、对比篇
-  - 六、拓展篇
-
-> [点击查看答案](https://articles.zsxq.com/id_nqeiewjxovjq.html)
-
-- [集成学习 常见面试篇](https://articles.zsxq.com/id_iqq9rzq9ctcd.html)
-  - 一、动机
-  - 二、集成学习介绍篇
-    - 2.1 介绍篇
-      - 2.1.1 集成学习的基本思想是什么？
-      - 2.1.2 集成学习为什么有效？
-  - 三、 Boosting 篇
-    - 3.1 用一句话概括 Boosting？
-    - 3.2 Boosting 的特点是什么？
-    - 3.3 Boosting 的基本思想是什么？
-    - 3.4 Boosting 的特点是什么？
-    - 3.5 GBDT 是什么？
-    - 3.6 Xgboost 是什么？
-  - 四、Bagging 篇
-    - 4.1 用一句话概括 Bagging？
-    - 4.2 Bagging 的特点是什么？
-    - 4.3 Bagging 的基本思想是什么？
-    - 4.4 Bagging 的基分类器如何选择？
-    - 4.5 Bagging 的优点 是什么？
-    - 4.6 Bagging 的特点是什么？
-    - 4.7 随机森林 是什么？
-  - 五、 Stacking 篇
-    - 5.1 用一句话概括 Stacking ？
-    - 5.2 Stacking 的特点是什么？
-    - 5.3 Stacking 的基本思路是什么？
-  - 六、常见问题篇
-    - 6.1 为什么使用决策树作为基学习器？
-    - 6.2 为什么不稳定的学习器更适合作为基学习器？
-    - 6.3 哪些模型适合作为基学习器？
-    - 6.4 Bagging 方法中能使用线性分类器作为基学习器吗？ Boosting 呢？
-    - 6.5 Boosting/Bagging 与 偏差/方差 的关系？
-  - 七、对比篇
-    - 7.1 LR vs GBDT?
-
-> [点击查看答案](https://articles.zsxq.com/id_iqq9rzq9ctcd.html)
 
 ## 九、[【关于 Python 】那些你不知道的事](python/)
 
